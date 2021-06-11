@@ -21,7 +21,7 @@ pr.launch('NAO_IK_API-experimental.ttt')
 pr.start()
 pr.step()
 
-target = Object.get_object('targetMovements')
+target = Object.get_object('DummyScript')
 script_handle = sim.simGetScriptAssociatedWithObject(target.get_handle())
 
 text = "testing text"
